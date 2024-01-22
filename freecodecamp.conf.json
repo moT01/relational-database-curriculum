@@ -1,0 +1,52 @@
+{
+  "version": "0.0.1",
+  "prepare": "cd ./node_modules/@freecodecamp/freecodecamp-os/ && npm run build:client",
+  "scripts": {
+    "develop-course": "NODE_ENV=development node ./node_modules/@freecodecamp/freecodecamp-os/.freeCodeCamp/tooling/server.js",
+    "run-course": "NODE_ENV=production node ./node_modules/@freecodecamp/freecodecamp-os/.freeCodeCamp/tooling/server.js",
+    "test": {
+      "functionName": "handleMessage",
+      "arguments": [
+        {
+          "message": "Hello World!",
+          "type": "info"
+        }
+      ]
+    }
+  },
+  "workspace": {
+    "autoStart": true,
+    "previews": [
+      {
+        "open": true,
+        "url": "http://localhost:8080",
+        "showLoader": true,
+        "timeout": 4000
+      }
+    ]
+  },
+  "bash": {
+    ".bashrc": "./bash/.bashrc",
+    "sourcerer.sh": "./bash/sourcerer.sh"
+  },
+  "client": {
+    "landing": {
+      "description": "Learn .NET!",
+      "faq-link": "#",
+      "faq-text": "https://github.com/freeCodeCamp/dotnet-curriculum/issues"
+    }
+  },
+  "config": {
+    "projects.json": "./config/projects.json",
+    "state.json": "./config/state.json"
+  },
+  "curriculum": {
+    "locales": {
+      "english": "./curriculum/locales/english"
+    }
+  },
+  "tooling": {
+    "helpers": "./tooling/helpers.js",
+    "plugins": "./tooling/plugins.js"
+  }
+}

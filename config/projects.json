@@ -1,0 +1,14 @@
+[
+  {
+    "id": 0,
+    "title": "Learn Bash by Building a Boilerplate",
+    "dashedName": "learn-bash-by-building-a-boilerplate",
+    "isIntegrated": false,
+    "description": "In this course, you will learn terminal commands by creating a website boilerplate using only the command line.",
+    "isPublic": true,
+    "currentLesson": 0,
+    "runTestsOnWatch": true,
+    "isResetEnabled": false,
+    "numberOfLessons": 35
+  }
+]

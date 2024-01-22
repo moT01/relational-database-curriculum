@@ -1,0 +1,17 @@
+{
+  "name": "relational-database-curriculum",
+  "version": "1.0.0",
+  "description": "Root package.json",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/moT01/relational-database-curriculum.git"
+  },
+  "author": "freeCodeCamp",
+  "type": "module",
+  "dependencies": {
+    "@freecodecamp/freecodecamp-os": "freeCodeCamp/freeCodeCampOS#main",
+    "babeliser": "0.6.0",
+    "dotenv": "16.3.1",
+    "ws": "8.16.0"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "dbaeumer.vscode-eslint",
+        "freeCodeCamp.freecodecamp-courses@2.1.0",
+        "freeCodeCamp.freecodecamp-dark-vscode-theme"
+      ]
+    }
+  },
+  "forwardPorts": [8080],
+  "workspaceFolder": "/workspace/relational-database-curriculum",
+  "dockerFile": "../Dockerfile",
+  "context": ".."
+}
